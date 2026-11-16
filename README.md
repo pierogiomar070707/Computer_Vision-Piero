@@ -102,7 +102,7 @@ Para las pruebas de simulación, el modelo de detección de objetos tiene como *
 | 8 | `spoon` |
 | 9 | `bottle` |
 
-> **Nota:** esta lista define los objetos previstos para la simulación. No implica que todas las clases ya estén entrenadas, integradas con ROS 2 o validadas en Gazebo.
+> **Nota:** esta lista define los objetos previstos para la simulación. Sin embargo aun se estan trabjando en la mejora de los modelos 3D de algunos objetos para la simulacion.
 
 ---
 
