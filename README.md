@@ -86,7 +86,27 @@ Problemas pendientes: cuando la persona se encuadra muy cerca, los puntos hombro
 
 ---
 
-## 4. Hoja de ruta
+## 4. Objetos a detectar en la simulación
+
+Para las pruebas de simulación, el modelo de detección de objetos tiene como **clases objetivo** las siguientes nueve etiquetas, con los nombres exactos utilizados en el proyecto:
+
+| N.º | Clase |
+|---|---|
+| 1 | `bowl` |
+| 2 | `redbull` |
+| 3 | `card` |
+| 4 | `bag` |
+| 5 | `pringles` |
+| 6 | `rubik` |
+| 7 | `fork` |
+| 8 | `spoon` |
+| 9 | `bottle` |
+
+> **Nota:** esta lista define los objetos previstos para la simulación. No implica que todas las clases ya estén entrenadas, integradas con ROS 2 o validadas en Gazebo.
+
+---
+
+## 5. Hoja de ruta
 
 - [ ] Reentrenar el modelo de objetos con las clases `spoon`, `fork` y `knife` y comparar contra la línea base.
 - [ ] Revisar las imágenes sin anotar del dataset antes de crear la nueva versión.
@@ -100,7 +120,7 @@ Problemas pendientes: cuando la persona se encuadra muy cerca, los puntos hombro
 
 ---
 
-## 5. Estructura del repositorio
+## 6. Estructura del repositorio
 
 ```text
 [ajustar según el repositorio]
@@ -112,12 +132,12 @@ Problemas pendientes: cuando la persona se encuadra muy cerca, los puntos hombro
 
 ---
 
-## 6. Privacidad de datos
+## 7. Privacidad de datos
 
 Los vectores faciales y las fotografías de personas pueden ser **datos biométricos sensibles**. No deben subirse a este repositorio. Las carpetas de registros (`face_data/`, `detecciones.json`, `personas_memoria.json`) deben estar en el `.gitignore`.
 
 ---
 
-## 7. Equipo
+## 8. Equipo
 
 Equipo de Visión Computacional, RoboCup@Home: [nombres de los integrantes].
